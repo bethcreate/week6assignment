@@ -1,11 +1,11 @@
-let str = ["Mango", "Banana"];
+let kiosk= ["Mango", "Banana"];
 
-let arr = ["Orange", "pineapple"];
+let fruits= ["Orange", "pineapple"];
 
 
-arr.push.apply(str , arr);
+kiosk.push.apply(kiosk, fruits);
 
-console.log(str);
+console.log(kiosk);
 
 
 
